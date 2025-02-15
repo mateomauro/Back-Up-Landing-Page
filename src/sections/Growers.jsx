@@ -1,11 +1,11 @@
 import React from 'react'
 import "../styles/growers.css"
 import GrowersDesktop from '../assets/GrowersDesktop'
-import niñoMobile from '../assets/niñoMobile.png'
+import niñoMobile from '../assets/niñoMobile.webp'
 import Testimonio from '../components/Testimonio';
-import testimonio1 from '../assets/testimonio1.png'
-import testimonio2 from '../assets/testimonio2.jpg'
-import testimonio3 from '../assets/testimonio3.png'
+import testimonio1 from '../assets/testimonio1.webp'
+import testimonio2 from '../assets/testimonio2.webp'
+import testimonio3 from '../assets/testimonio3.webp'
 
 
 
