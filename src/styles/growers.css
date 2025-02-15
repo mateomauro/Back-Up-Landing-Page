@@ -1,0 +1,92 @@
+.growers-section {
+    width: 100%;
+    height: 100vh;
+    background-color: #0A175C;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.growers-informacion {
+    height: auto;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.growers-informacion button {
+    background: #FEBB2F;
+    width: 250px;
+    height: 40px;
+    border-radius: 10px;
+    color: #0A175C;
+    text-align: center;
+    font-family: Raleway;
+    font-size: 12.056px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 9.644px;
+    /* 80% */
+    text-transform: uppercase;
+}
+
+
+.growers-imagen{
+    margin: 30px;
+    width: 80%;
+    height: 35%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+}
+
+.growers-imagen img {
+    object-fit: cover;
+    height: 100%;
+}
+
+.growers-mobile {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+}
+
+
+.titulo-growers {
+    color: #FFF;
+    text-align: center;
+    font-family: Raleway;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 30px;
+    margin: 20px;
+    /* 100% */
+}
+
+.growers-testimonios {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    display: flex;
+    animation: carrusel 70s linear infinite;
+    -webkit-animation: carrusel 70s linear infinite;
+    width: calc(300px *6);
+}
+
+@keyframes carrusel {
+    0%{
+        transform: translateX(0);
+        -webkit-transform: translateX(0);
+    }
+    100% {
+        transform: translateX(calc(-300px*3));
+        -webkit-transform: translateX(calc(-300px*3));
+    }
+}
