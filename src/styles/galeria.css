@@ -1,0 +1,43 @@
+.galeria-container {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #0A175C;
+    position: relative;
+}
+
+
+.galeria-container h2 {
+    color: #FFF;
+    text-align: center;
+    font-family: Raleway;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 50px;
+    /* 156.25% */
+}
+
+.galeria-container h2 span {
+    color: #FFF;
+font-family: Raleway;
+font-size: 32px;
+font-style: normal;
+font-weight: 700;
+line-height: 50px;
+}
+
+.galeria {
+    max-width: 1080px;
+    width: auto;
+    display: flex;
+}
+
+.galeria img {
+    width: 350px;
+    height: 210px;
+    object-fit: cover;
+}

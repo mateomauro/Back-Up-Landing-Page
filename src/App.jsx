@@ -3,6 +3,8 @@ import Nav from './components/Nav'
 import "./styles/app.css"
 import Growers from './sections/Growers'
 import Servicios from './sections/Servicios'
+import Equipo from './sections/Equipo'
+import Galeria from './sections/Galeria'
 
 function App() {
 
@@ -13,6 +15,8 @@ function App() {
         <Nav></Nav>
         <Growers></Growers>
         <Servicios></Servicios>
+        <Equipo></Equipo>
+        <Galeria></Galeria>
       </div>
     </>
   )

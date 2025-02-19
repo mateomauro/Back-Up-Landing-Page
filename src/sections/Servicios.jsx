@@ -9,7 +9,7 @@ const Servicios = () => {
         <section className='servicios-container'>
             <div className='servicios'>
                 <h2>Nuestra <span>Propuesta</span></h2>
-                <div className='servicio'>
+                <div className='servicio alrevez'>
                     <div className='servicio-informacion'>
                         <h3>Aprendizaje Personalizado y Dinámico</h3>
                         <p>Ofrecemos espacios de educación en grupos reducidos, con actividades innovadoras que permiten aprender inglés de manera natural y divertida.</p>
@@ -52,7 +52,7 @@ const Servicios = () => {
                     </div>
                 </div>
                 <SeparadorMobile></SeparadorMobile>
-                <div className='servicio'>
+                <div className='servicio alrevez'>
                     <div className='servicio-informacion'>
                         <h3>Cursos para Adolescentes y Adultos</h3>
                         <p>Clases adaptadas a los intereses y necesidades de cada grupo, enfocadas en mejorar la comunicación en inglés.</p>
