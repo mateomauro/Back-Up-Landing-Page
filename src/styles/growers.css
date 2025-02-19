@@ -1,44 +1,49 @@
+/* ===============================
+   ESTILOS BASE - MOBILE FIRST
+   =============================== */
 .growers-section {
     width: 100%;
-    height: 100vh;
+    height: auto;
     background-color: #0A175C;
     position: relative;
     overflow: hidden;
+}
+
+.growers-section-home {
+    margin-top: 10vh;
+    height: auto;
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
 }
 
 .growers-informacion {
-    height: auto;
-    width: 80%;
+    width: 90%;
     display: flex;
     flex-direction: column;
     align-items: center;
+    text-align: center;
 }
 
 .growers-informacion button {
     background: #FEBB2F;
-    width: 250px;
-    height: 40px;
+    width: 230px;
+    height: 35px;
     border-radius: 10px;
+    border: none;
     color: #0A175C;
-    text-align: center;
-    font-family: Raleway;
-    font-size: 12.056px;
-    font-style: normal;
+    font-family: Raleway, sans-serif;
+    font-size: 12px;
     font-weight: 600;
-    line-height: 9.644px;
-    /* 80% */
     text-transform: uppercase;
+    cursor: pointer;
 }
 
-
-.growers-imagen{
-    margin: 30px;
-    width: 80%;
-    height: 35%;
+.growers-imagen {
+    margin: 25px 0;
+    width: 90%;
+    height: 230px;
     overflow: hidden;
     display: flex;
     justify-content: center;
@@ -47,6 +52,7 @@
 .growers-imagen img {
     object-fit: cover;
     height: 100%;
+    width: auto;
 }
 
 .growers-mobile {
@@ -57,17 +63,13 @@
     height: auto;
 }
 
-
 .titulo-growers {
     color: #FFF;
     text-align: center;
-    font-family: Raleway;
-    font-size: 30px;
-    font-style: normal;
+    font-family: Raleway, sans-serif;
+    font-size: 20px;
     font-weight: 600;
-    line-height: 30px;
-    margin: 20px;
-    /* 100% */
+    margin: 15px 0;
 }
 
 .growers-testimonios {
@@ -76,17 +78,114 @@
     bottom: 0;
     display: flex;
     animation: carrusel 70s linear infinite;
-    -webkit-animation: carrusel 70s linear infinite;
-    width: calc(300px *6);
+    width: calc(300px * 6);
+}
+
+.agrandador-egrowers {
+    height: 10vh;
+    margin: 5vh 0;
 }
 
 @keyframes carrusel {
-    0%{
+    0% {
         transform: translateX(0);
-        -webkit-transform: translateX(0);
     }
+
     100% {
-        transform: translateX(calc(-300px*3));
-        -webkit-transform: translateX(calc(-300px*3));
+        transform: translateX(calc(-300px * 3));
     }
+}
+
+/* ===============================
+   MEDIA QUERIES - MOBILE FIRST
+   =============================== */
+
+/* Celular (≥ 360px) */
+@media (min-width: 360px) {
+    .titulo-growers {
+        font-size: 26px;
+    }
+
+
+    .growers-informacion button {
+        width: 250px;
+        height: 40px;
+        font-size: 13px;
+    }
+
+    .growers-imagen{
+        height: 250px;
+    }
+
+    .agrandador-egrowers {
+        height: 10vh;
+        margin: 4vh 0;
+    }
+}
+
+/* Tablets pequeñas (≥ 600px) */
+@media (min-width: 600px) {
+    .growers-imagen {
+        height: 300px;
+    }
+
+    .growers-informacion {
+        width: 60%;
+    }
+
+    .titulo-growers{
+        font-size: 30px;
+    }
+
+    .growers-informacion button {
+        width: 260px;
+        height: 40px;
+        font-size: 14px;
+    }
+
+    .agrandador-egrowers {
+        height: 10vh;
+        margin: 0vh 0;
+    }
+}
+
+
+/* Laptops (≥ 1024px) */
+@media (min-width: 1024px) {
+    .growers-section-home {
+        flex-direction: row;
+        height: 75vh;
+        justify-content: center;
+    }
+
+    .growers-informacion {
+        width: 45%;
+        align-items: start;
+        margin: 0 30px;
+    }
+
+    .titulo-growers {
+        text-align: start;
+        font-size: 38px;
+        width: 450px;
+    }
+
+    .growers-imagen {
+        margin: 0 30px;
+        width: auto;
+        height: 300px;
+    }
+
+    .agrandador-egrowers {
+        height: 15vh;
+    }  
+    
+    .growers-testimonios{
+        bottom: 20px;
+    }
+}
+
+/* Monitores grandes (≥ 1440px) */
+@media (min-width: 1440px) {
+   
 }

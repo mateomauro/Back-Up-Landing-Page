@@ -11,8 +11,8 @@
 }
 
 /* Logo */
-.logo{
-    width: 200px;
+.logo {
+    width: 150px;
     height: 100%;
     margin-left: 20px;
     display: flex;
@@ -30,12 +30,13 @@
     border: none;
     cursor: pointer;
     margin-right: 20px;
-    width: 30px;
-    height: 30px;
+    width: 25px;
+    height: 25px;
     display: flex;
     align-items: center;
     justify-content: center;
 }
+
 
 /* Estilos del menú */
 .menu {
@@ -74,7 +75,7 @@
     text-decoration: none;
     color: #FFF;
     font-family: Raleway;
-    font-size: 14px;
+    font-size: 12px;
     font-style: normal;
     font-weight: 600;
     line-height: normal;
@@ -93,6 +94,24 @@
     border: 0;
 }
 
+
+/* Estilos para mobile*/
+@media screen and (min-width: 360px) {
+    .menu a {
+        font-size: 14px;
+    }
+}
+
+/* Estilos para tableta*/
+@media screen and (min-width: 600px) {
+    .menu a {
+        font-size: 14px;
+    }
+
+}
+
+
+
 /* Estilos para desktop */
 @media screen and (min-width: 1024px) {
     .menu-hamburguesa {
@@ -109,7 +128,9 @@
         justify-content: space-evenly;
         margin-right: 25px;
         width: 70%;
-
     }
 
+    .menu a {
+        font-size: 11px;
+    }
 }

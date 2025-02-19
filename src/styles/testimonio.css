@@ -53,3 +53,43 @@
 .estrellas-testimonio {
     padding-left: 8px;
 }
+
+
+/* Estilos para tableta*/
+@media screen and (min-width: 600px) {
+    .testimonio {
+        width: 300px;
+        height: 100px;
+    }
+
+    .testimonio-img-container {
+        width: 60px;
+    }
+    
+    .testimonio img {
+        width: 60px;
+        height: 60px;
+    }
+    
+    .testimonio-informacion-container {
+        width: 240px;
+    }
+    
+    .testimonio-informacion-container h4 {
+        font-size: 15px;
+    }
+    
+    .testimonio-informacion-container h5 {
+        font-size: 12px;
+        line-height: 12px;
+    }
+    
+    .estrellas-testimonio {
+        padding-left: 8px;
+    }
+
+    .estrella-svg {
+        width: 20px;
+        height: 19px;
+    }
+}

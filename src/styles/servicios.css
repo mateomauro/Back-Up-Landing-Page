@@ -1,0 +1,144 @@
+.servicios-container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+.servicios {
+    width: 90%;
+    height: 100%;
+    margin: 25px 0;
+}
+
+.servicios h2 {
+    color: #293B97;
+    text-align: center;
+    font-family: Raleway;
+    font-size: 31.356px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 31.356px;
+    /* 100% */
+}
+
+.servicios h2 span {
+    color: #293B97;
+    font-family: Raleway;
+    font-size: 31.356px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 31.356px;
+}
+
+.servicio {
+    margin: 50px 0;
+}
+
+.servicio-informacion h3 {
+    color: #293B97;
+    font-family: Raleway;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 30px;
+    margin: 10px 0;
+    width: 90%;
+}
+
+.servicio-informacion p {
+    color: #7A7A7A;
+    font-family: Raleway;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    /* 171.429% */
+    width: 90%;
+}
+
+.servicio-informacion div {
+    display: flex;
+}
+
+.servicio-informacion div li {
+    list-style: none;
+    color: #7A7A7A;
+    font-family: Raleway;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    /* 171.429% */
+    margin: 5px 0;
+    margin-right: 10px;
+}
+
+.servicio-svg {
+    display: flex;
+    justify-content: center;
+    margin: 30px 0;
+}
+
+.servicio-svg img {
+    width: 130px;
+    height: 130px;
+    object-fit: contain;
+}
+
+.separadorMobile {
+    width: 100%;
+}
+
+/* Estilos para celular*/
+@media screen and (min-width: 320px) {
+    .menu a {
+        font-size: 14px;
+    }
+
+}
+
+
+/* Estilos para tableta*/
+@media screen and (min-width: 480px) {
+    .menu a {
+        font-size: 14px;
+    }
+
+}
+
+
+/* Estilos para tableta*/
+@media screen and (min-width: 768px) {
+    .menu a {
+        font-size: 14px;
+    }
+
+}
+
+
+/* Estilos para tableta*/
+@media screen and (min-width: 960px) {
+    .menu a {
+        font-size: 14px;
+    }
+
+}
+
+
+
+/* Estilos para tableta*/
+@media screen and (min-width: 1024px) {
+    .menu a {
+        font-size: 14px;
+    }
+
+}
+
+/* Estilos para tableta*/
+@media screen and (min-width: 1328px) {
+    .menu a {
+        font-size: 14px;
+    }
+
+}
