@@ -1,6 +1,5 @@
 import React from 'react'
-import "../styles/equipo.css"
-
+import "../styles/Equipo.css"
 
 const GrowersDesktopAlrevez = () => {
     return (
