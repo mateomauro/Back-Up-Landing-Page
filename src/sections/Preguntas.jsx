@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import Pregunta from '../assets/Pregunta';
-import "../styles/preguntas.css";
+import "../styles/Preguntas.css";
 
 const Preguntas = () => {
     const [preguntaActiva, setPreguntaActiva] = useState(0); // La primera empieza abierta
