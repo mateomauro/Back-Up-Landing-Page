@@ -1,5 +1,5 @@
 import React from 'react'
-import "../styles/equipo.css"
+import "../styles/Equipo.css"
 import GrowersDesktopAlrevez from '../assets/GrowersDesktopAlrevez'
 import profesora1 from '../assets/profesora1.webp'
 import profesora2 from '../assets/profesora2.webp'
