@@ -13,6 +13,16 @@ const Galeria = () => {
             <img src={galeria1} />
             <img src={galeria2} />
             <img src={galeria3} />
+            <img src={galeria1} />
+            <img src={galeria2} />
+            <img src={galeria3} />
+            <img src={galeria1} />
+            <img src={galeria2} />
+            <img src={galeria3} />
+            <img src={galeria1} />
+            <img src={galeria2} />
+            <img src={galeria3} />
+
         </div>
         <GrowersDesktop></GrowersDesktop>
     </section>
