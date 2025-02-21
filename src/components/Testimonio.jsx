@@ -1,6 +1,6 @@
 import React from 'react'
 import "../styles/testimonio.css"
-import Estrella from '../assets/Estrella'
+import Estrella from '../components/Estrella'
 
 const Testimonio = ({titulo, subtitulo, img}) => {
     return (

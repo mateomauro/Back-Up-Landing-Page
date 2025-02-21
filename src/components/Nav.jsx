@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import logo from "../assets/logo.webp";
 import "../styles/nav.css";
-import MenuIcon from "../assets/MenuIcon";
-import CloseIcon from "../assets/CloseIcon";
+import MenuIcon from "../components/MenuIcon";
+import CloseIcon from "../components/CloseIcon";
 
 const Nav = () => {
     const [menuOpen, setMenuOpen] = useState(false);
