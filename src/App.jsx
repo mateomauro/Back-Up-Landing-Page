@@ -7,6 +7,7 @@ import Equipo from './sections/Equipo'
 import Galeria from './sections/Galeria'
 import Preguntas from './sections/Preguntas'
 import Contacto from './sections/Contacto'
+import Footer from './sections/Footer'
 
 function App() {
 
@@ -21,6 +22,7 @@ function App() {
         <Galeria></Galeria>
         <Preguntas></Preguntas>
         <Contacto></Contacto>
+        <Footer></Footer>
       </div>
     </>
   )
