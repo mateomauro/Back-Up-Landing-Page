@@ -1,6 +1,6 @@
 import React from 'react'
 import "../styles/growers.css"
-import GrowersDesktop from '../assets/GrowersDesktop'
+import GrowersDesktop from '../components/GrowersDesktop'
 import niñoMobile from '../assets/niñoMobile.webp'
 import Testimonio from '../components/Testimonio';
 import testimonio1 from '../assets/testimonio1.webp'

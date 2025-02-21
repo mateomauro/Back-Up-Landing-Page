@@ -1,6 +1,6 @@
 import React from 'react'
 import "../styles/galeria.css"
-import GrowersDesktop from '../assets/GrowersDesktop'
+import GrowersDesktop from '../components/GrowersDesktop'
 import galeria1 from '../assets/galeria1.webp'
 import galeria2 from '../assets/galeria2.webp'
 import galeria3 from '../assets/galeria3.webp'

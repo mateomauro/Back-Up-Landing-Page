@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import Pregunta from '../assets/Pregunta';
+import Pregunta from '../components/Pregunta';
 import "../styles/Preguntas.css";
 
 const Preguntas = () => {

@@ -1,5 +1,5 @@
 import React from 'react'
-import GrowersDesktopAlrevez from '../assets/GrowersDesktopAlrevez.jsx'
+import GrowersDesktopAlrevez from '../components/GrowersDesktopAlrevez.jsx'
 import '../styles/contacto.css'
 import contacoFondo from '../assets/contactoFondo.webp'
 import InformacionContacto from '../components/InformacionContacto.jsx'

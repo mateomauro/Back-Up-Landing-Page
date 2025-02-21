@@ -2,7 +2,7 @@ import React from 'react'
 import "../styles/servicios.css"
 import servicioNiños from '../assets/servicioNiños.webp'
 import servicioEspeciales from '../assets/servicioEspeciales.webp'
-import SeparadorMobile from '../assets/SeparadorMobile.jsx'
+import SeparadorMobile from '../components/SeparadorMobile.jsx'
 
 const Servicios = () => {
     return (
