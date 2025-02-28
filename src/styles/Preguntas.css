@@ -30,6 +30,7 @@
 .pregunta-caja {
     width: 90%;
     margin: 10px;
+     margin-bottom: 15px; /* Espacio entre preguntas */
 }
 
 .pregunta {

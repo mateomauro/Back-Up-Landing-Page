@@ -9,6 +9,11 @@
     overflow: hidden;
 }
 
+.growers-section-home-container {
+    width: 100%;
+    height: auto;
+}
+
 .growers-section-home {
     margin-top: 10vh;
     height: auto;
@@ -23,6 +28,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     text-align: center;
 }
 
@@ -72,19 +78,19 @@
     margin: 15px 0;
 }
 
+.titulo-growers span {
+    font-style: italic;
+    font-weight: 700;
+}
+
 .growers-testimonios {
-    position: absolute;
-    left: 0;
-    bottom: 0;
+    margin: 15px 0;
     display: flex;
     animation: carrusel 70s linear infinite;
     width: calc(300px * 6);
 }
 
-.agrandador-egrowers {
-    height: 10vh;
-    margin: 5vh 0;
-}
+
 
 @keyframes carrusel {
     0% {
@@ -113,14 +119,10 @@
         font-size: 13px;
     }
 
-    .growers-imagen{
+    .growers-imagen {
         height: 250px;
     }
 
-    .agrandador-egrowers {
-        height: 10vh;
-        margin: 4vh 0;
-    }
 }
 
 /* Tablets pequeñas (≥ 600px) */
@@ -133,7 +135,7 @@
         width: 60%;
     }
 
-    .titulo-growers{
+    .titulo-growers {
         font-size: 30px;
     }
 
@@ -143,10 +145,6 @@
         font-size: 14px;
     }
 
-    .agrandador-egrowers {
-        height: 10vh;
-        margin: 0vh 0;
-    }
 }
 
 
@@ -176,16 +174,12 @@
         height: 300px;
     }
 
-    .agrandador-egrowers {
-        height: 15vh;
-    }  
-    
-    .growers-testimonios{
-        bottom: 20px;
+
+    .growers-testimonios {
+        margin-top: 0;
+        margin-bottom: 30px;
     }
 }
 
 /* Monitores grandes (≥ 1440px) */
-@media (min-width: 1440px) {
-   
-}
+@media (min-width: 1440px) {}

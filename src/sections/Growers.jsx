@@ -12,17 +12,16 @@ import testimonio3 from '../assets/testimonio3.webp'
 const Growers = () => {
     return (
         <section id='growers' className='growers-section'>
-            <div className='growers-section-home'>
-                <div className='growers-informacion'>
-                    <h1 className='titulo-growers'>Aprendé Inglés con un Método Multi- Sensorial y Social</h1>
-                    <button>Cupos limitados ¡Anotate hoy! </button>
+            <div className='growers-section-home-container'>
+                <div className='growers-section-home'>
+                    <div className='growers-informacion'>
+                        <h1 className='titulo-growers'>Aprendé Inglés con un Método <span> Multi- Sensorial </span> y <span> Social </span> </h1>
+                        <button>Cupos limitados ¡Anotate hoy! </button>
+                    </div>
+                    <div className='growers-imagen'>
+                        <img src={niñoMobile} alt="" />
+                    </div>
                 </div>
-                <div className='growers-imagen'>
-                    <img src={niñoMobile} alt="" />
-                </div>
-            </div>
-            <div className='agrandador-egrowers'>
-
             </div>
             <div className='growers-testimonios'>
                 <Testimonio titulo='Sofi la mejor teacher!' subtitulo='Muy dedicada y apasionada, se aprende muy rapido con ella' img={testimonio1} />
