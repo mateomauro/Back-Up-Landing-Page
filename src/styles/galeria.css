@@ -20,6 +20,7 @@
     line-height: 50px;
     margin-bottom: 15px;
     /* 156.25% */
+    margin-top: 10vh;
 }
 
 .galeria-container h2 span {
@@ -43,6 +44,12 @@
     height: 150px;
     object-fit: cover;
     margin-right: 20px;
+    transition: all 0.5s ease;
+}
+
+.galeria img:hover {
+    scale: 1.05;
+    cursor: pointer;
 }
 
 .galeria img:last-child {

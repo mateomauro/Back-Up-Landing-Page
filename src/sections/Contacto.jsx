@@ -29,7 +29,7 @@ const Contacto = () => {
 
 
     return (
-        <section className='contacto-container'>
+        <section className='contacto-container' id='contacto'>
             <div className='fondo'>
                 <img src={contacoFondo} />
             </div>

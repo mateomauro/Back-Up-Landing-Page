@@ -19,7 +19,7 @@ const Servicios = () => {
 
 
     return (
-        <section className='servicios-container'>
+        <section className='servicios-container' id='servicios'>
             <div className='servicios'>
                 <h2>Nuestra <span>Propuesta</span></h2>
                 <motion.div 

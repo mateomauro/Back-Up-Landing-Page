@@ -7,7 +7,7 @@ import galeria3 from '../assets/galeria3.webp'
 
 const Galeria = () => {
   return (
-    <section className='galeria-container'>
+    <section className='galeria-container' id='galeria'>
         <h2>Conoce la <span>Escuela</span></h2>
         <div className='galeria'>
             <img src={galeria1} />

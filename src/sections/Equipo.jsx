@@ -20,7 +20,7 @@ const Equipo = () => {
     };
 
     return (
-        <section className='equipo-container'>
+        <section className='equipo-container' id='equipo'>
             <GrowersDesktopAlrevez></GrowersDesktopAlrevez>
             <div className='equipo'>
                 <h2>Conoce a nuestras <span> Techears </span></h2>

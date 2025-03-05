@@ -2,7 +2,7 @@
    ESTILOS BASE - MOBILE FIRST
    =============================== */
 .growers-section {
-    width: 100%;
+    max-width: 100% !important;
     height: auto;
     background-color: #0A175C;
     position: relative;
@@ -44,6 +44,12 @@
     font-weight: 600;
     text-transform: uppercase;
     cursor: pointer;
+    transition: all 0.5s ease;
+}
+
+.growers-informacion button:hover{
+    background-color: #55cfdf;
+    scale: 1.05;
 }
 
 .growers-imagen {
@@ -86,19 +92,21 @@
 .growers-testimonios {
     margin: 15px 0;
     display: flex;
-    animation: carrusel 70s linear infinite;
-    width: calc(300px * 6);
+    animation: carrusele 70s linear infinite;
+    width: calc(275px * 12 - 25px);
 }
 
 
 
-@keyframes carrusel {
+@keyframes carrusele {
     0% {
+        /* -webkit-transform: translateX(0); */
         transform: translateX(0);
     }
 
     100% {
-        transform: translateX(calc(-300px * 3));
+        /* -webkit-transform: translateX(calc(-250px * 6)); */
+        transform: translateX(calc(-275px * 6));
     }
 }
 

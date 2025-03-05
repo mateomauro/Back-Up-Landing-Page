@@ -16,6 +16,7 @@
     font-weight: 500;
     line-height: 31.356px;
     margin: 10px 0;
+    margin-top: 11vh;
 }
 
 .preguntas-container h2 span {
@@ -41,6 +42,7 @@
     border-bottom-left-radius: 10px;
     display: flex;
     align-items: center;
+    cursor: pointer;
 }
 
 .pregunta img {
@@ -94,5 +96,9 @@
     .pregunta {
         height: 45px;
         max-height: auto;
+    }
+
+    .pregunta-caja p {
+        font-size: 16px;
     }
 }

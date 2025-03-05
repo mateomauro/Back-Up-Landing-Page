@@ -35,6 +35,7 @@ const Nav = () => {
                 <li><a href="#galeria">GALERIA</a></li>
                 <li><a href="#faq">PREGUNTAS FRECUENTES</a></li>
                 <li><a href="#contacto">CONTACTO</a></li>
+
             </ul>
         </nav>
     );

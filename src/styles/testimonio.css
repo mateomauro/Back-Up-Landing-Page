@@ -4,7 +4,7 @@
     display: flex;
     color: wheat;
     cursor: none;
-    margin: 0px 25px;
+    margin-right: 25px;
 }
 
 .testimonio-img-container {
@@ -32,7 +32,7 @@
     font-size: 12px;
     font-style: normal;
     font-weight: 700;
-    line-height: 8.302px;
+    line-height: 11px;
     margin: 5px 0;
     padding-left: 10px;
     /* 125% */
@@ -76,11 +76,11 @@
     }
     
     .testimonio-informacion-container h4 {
-        font-size: 15px;
+        font-size: 13px;
     }
     
     .testimonio-informacion-container h5 {
-        font-size: 12px;
+        font-size: 11px;
         line-height: 12px;
     }
     

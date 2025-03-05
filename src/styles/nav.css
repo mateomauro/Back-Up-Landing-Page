@@ -64,10 +64,26 @@
 /* Lista de navegación */
 .menu li {
     list-style: none;
-    padding: 10px;
+    cursor: pointer;
+    display: block; /* Hacer que el <li> ocupe todo el ancho disponible */
 }
 
-.menu li:hover {
+.menu li a {
+    display: flex; /* Esto hace que el <a> ocupe todo el espacio dentro del <li> */
+    text-decoration: none;
+    color: #FFF;
+    font-family: Raleway;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+    width: 100%; /* Asegura que el <a> ocupe el 100% del <li> */
+    height: 6vh; /* Asegura que el <a> ocupe el 100% del <li> */
+    align-items: center;
+}
+
+.menu li a:hover {
     border-bottom: solid 2px red;
 }
 
