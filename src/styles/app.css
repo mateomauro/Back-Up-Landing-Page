@@ -18,3 +18,18 @@ html {
 /* h2 {
     margin-top: 10vh !important;
 } */
+
+.menu-abierto section,
+.menu-abierto footer {
+    position: relative;
+    z-index: -1;
+}
+
+.menu-abierto nav {
+    background-color: black;
+}
+
+.menu-abierto nav .logo {
+    visibility: hidden;
+    transition: background-color 0.3s ease-in-out;
+}
