@@ -48,7 +48,7 @@ const Growers = () => {
                         variants={zoomInFadeInLeft}
                     >
                         <h1 className='titulo-growers'>Aprendé Inglés con un Método <span> Multi- Sensorial </span> y <span> Social </span> </h1>
-                        <button>Cupos limitados ¡Anotate hoy! </button>
+                        <button> <a href="https://api.whatsapp.com/send/?phone=2494630209&text&type=phone_number&app_absent=0" target='_blank'>Cupos limitados ¡Anotate hoy! </a> </button>
                     </motion.div>
                     <motion.div
                         className="growers-imagen"

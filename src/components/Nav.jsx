@@ -52,12 +52,11 @@ const Nav = () => {
                 <li><a href="#galeria" onClick={() => setMenuOpen(false)}>GALERIA</a></li>
                 <li><a href="#faq" onClick={() => setMenuOpen(false)}>PREGUNTAS FRECUENTES</a></li>
                 <li><a href="#contacto" onClick={() => setMenuOpen(false)}>CONTACTO</a></li>
-                <button className={`${menuOpen ? "" : "desaparecer"}`}>Cupos limitados ¡Anotate hoy!</button>
+                <button className={`${menuOpen ? "" : "desaparecer"}`}> <a href="https://api.whatsapp.com/send/?phone=2494630209&text&type=phone_number&app_absent=0" target='_blank'>Cupos limitados ¡Anotate hoy! </a></button>
                 <SeparadorMobile className={`${menuOpen ? "" : "desaparecer"}`} />
                 <img className={`${menuOpen ? "" : "desaparecer"}`} src={logoAzul} alt="Logo" />
                 <button className="btn-close-icon" onClick={() => {
                     setMenuOpen(!menuOpen);
-                    console.log(`Menu abierto: ${menuOpen}`); // Agrega este log
                 }}>
                     <CloseIcon
                         className={`${menuOpen ? "" : "desaparecer"}`}

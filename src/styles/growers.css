@@ -52,6 +52,10 @@
     scale: 1.05;
 }
 
+.growers-informacion button a {
+    text-decoration: none;
+    color: #0A175C;
+}
 .growers-imagen {
     margin: 25px 0;
     width: 90%;

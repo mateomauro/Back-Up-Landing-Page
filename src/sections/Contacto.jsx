@@ -40,7 +40,7 @@ const Contacto = () => {
                         id="contacto"
                         initial="hidden"
                         whileInView="visible"
-                        viewport={{ once: true, amount: 0.6 }}
+                        viewport={{ once: true, amount: 0.4 }}
                         variants={fadeIn}
                     >
             <div className='fondo'>
