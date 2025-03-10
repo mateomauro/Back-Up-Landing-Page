@@ -7,7 +7,22 @@ import CloseIcon from "../components/CloseIcon";
 import SeparadorMobile from "./SeparadorMobile";
 
 const Nav = () => {
+    const [scrolled, setScrolled] = useState(false);
     const [menuOpen, setMenuOpen] = useState(false);
+
+    useEffect(() => {
+        const handleScroll = () => {
+            if (window.scrollY > 50) {
+                setScrolled(true);
+            } else {
+                setScrolled(false);
+            }
+        };
+
+        window.addEventListener("scroll", handleScroll);
+        return () => window.removeEventListener("scroll", handleScroll);
+    }, []);
+
 
     // Efecto para cambiar la clase en <body> cuando el menú se abre/cierra
     useEffect(() => {
@@ -23,7 +38,7 @@ const Nav = () => {
 
 
     return (
-        <nav className="nav">
+        <nav className={`nav ${scrolled ? "scrolled" : ""}`}>
             {/* Logo */}
             <div className="logo">
                 <a href="/">

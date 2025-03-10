@@ -1,5 +1,4 @@
 .nav {
-    background-color: #232424;
     height: 10vh;
     width: 100%;
     display: flex;
@@ -8,6 +7,11 @@
     position: fixed;
     z-index: 1000;
 
+}
+
+.scrolled {
+    background-color: rgba(35, 36, 36, 0.9);
+    transition: all 0.2s;
 }
 
 /* Logo */
@@ -239,7 +243,7 @@
         align-items: center;
         justify-content: space-between;
         margin-right: 60px;
-        width: 60%;
+        width: 70%;
         visibility: visible;
         transform: none;
     }
@@ -254,7 +258,7 @@
         text-decoration: none;
         color: #fff;
         font-family: Raleway;
-        font-size: 12px;
+        font-size: 15px;
         font-weight: 600;
         text-transform: uppercase;
         height: 6vh;

@@ -8,7 +8,7 @@
 
 .contenedor-principal {
     width: 100%;
-    overflow-x: hidden;
+    overflow: hidden;
 }
 
 html {

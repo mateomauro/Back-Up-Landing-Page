@@ -37,6 +37,8 @@
     margin-bottom: 35px;
     animation: carrusel 40s linear infinite;
     width: calc(270px * 12 - 20px);
+    position: relative;
+    z-index: 1;
 }
 
 .galeria img {

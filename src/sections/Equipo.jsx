@@ -47,9 +47,9 @@ const Equipo = () => {
                                 d="M3 1C37 79.1739 725.267 -48.403 758 35.3264"
                                 stroke="#FEBB2F"
                                 strokeWidth="5"
-                                initial={{ strokeDasharray: 761 }}  // El largo del trazo es el mismo que el de la longitud del path
-                                animate={{ strokeDashoffset: 0 }}  // El offset es 0 cuando se completa la animación
-                                transition={{ duration: 2 }}  // La duración de la animación (en segundos)
+                                initial={{ strokeDasharray: 761, strokeDashoffset: 761 }} // ✅ Valor inicial correcto
+                                animate={{ strokeDashoffset: 0 }}
+                                transition={{ duration: 2 }}
                             />
                         </motion.svg>
                     </div>
@@ -96,7 +96,7 @@ const Equipo = () => {
                                 d="M3 1C37 79.1739 725.267 -48.403 758 35.3264"
                                 stroke="#FEBB2F"
                                 strokeWidth="5"
-                                initial={{ strokeDasharray: 761 }}  // El largo del trazo es el mismo que el de la longitud del path
+                                initial={{ strokeDasharray: 761, strokeDashoffset: 761 }}  // El largo del trazo es el mismo que el de la longitud del path
                                 animate={{ strokeDashoffset: 0 }}  // El offset es 0 cuando se completa la animación
                                 transition={{ duration: 2 }}  // La duración de la animación (en segundos)
                             />
@@ -145,7 +145,7 @@ const Equipo = () => {
                                 d="M3 1C37 79.1739 725.267 -48.403 758 35.3264"
                                 stroke="#FEBB2F"
                                 strokeWidth="5"
-                                initial={{ strokeDasharray: 761 }}  // El largo del trazo es el mismo que el de la longitud del path
+                                initial={{ strokeDasharray: 761, strokeDashoffset: 761 }}  // El largo del trazo es el mismo que el de la longitud del path
                                 animate={{ strokeDashoffset: 0 }}  // El offset es 0 cuando se completa la animación
                                 transition={{ duration: 2 }}  // La duración de la animación (en segundos)
                             />
@@ -194,7 +194,7 @@ const Equipo = () => {
                                 d="M3 1C37 79.1739 725.267 -48.403 758 35.3264"
                                 stroke="#FEBB2F"
                                 strokeWidth="5"
-                                initial={{ strokeDasharray: 761 }}  // El largo del trazo es el mismo que el de la longitud del path
+                                initial={{ strokeDasharray: 761, strokeDashoffset: 761 }}  // El largo del trazo es el mismo que el de la longitud del path
                                 animate={{ strokeDashoffset: 0 }}  // El offset es 0 cuando se completa la animación
                                 transition={{ duration: 2 }}  // La duración de la animación (en segundos)
                             />
