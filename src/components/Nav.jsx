@@ -53,9 +53,10 @@ const Nav = () => {
                 aria-expanded={menuOpen}
                 aria-label="Abrir menú"
             >
-                {menuOpen ? <CloseIcon /> : <MenuIcon />}
+                <MenuIcon /> {/* Siempre muestra el ícono de menú abierto */}
                 <span className="sr-only">Menú</span>
             </button>
+
 
             {/* Menú de navegación */}
             <ul className={`menu ${menuOpen ? "open" : ""}`}>
