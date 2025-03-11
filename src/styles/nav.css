@@ -223,15 +223,6 @@
 
 }
 
-@supports (-webkit-touch-callout: none) {
-    .menu {
-        display: block !important;
-        opacity: 0 !important;
-        visibility: hidden !important;
-        transform: translateX(100%) !important;
-    }
-}
-
 
 /* Estilos para desktop */
 @media screen and (min-width: 1024px) {
