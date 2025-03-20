@@ -21,7 +21,7 @@ const Servicios = () => {
     return (
         <section className='servicios-container' id='servicios'>
             <div className='servicios'>
-                <h2>Nuestra <span>Propuesta</span></h2>
+                <h2>Nuestra <span>Historia</span></h2>
                 <motion.div 
                     className="servicio alrevez"
                     initial="hidden"

@@ -4,7 +4,6 @@
 .growers-section {
     max-width: 100% !important;
     height: auto;
-    background-color: #0A175C;
     position: relative;
     overflow: hidden;
 }
@@ -33,12 +32,11 @@
 }
 
 .growers-informacion button {
-    background: #FEBB2F;
+    background: #764AF1;
     width: 230px;
     height: 35px;
     border-radius: 10px;
     border: none;
-    color: #0A175C;
     font-family: Raleway, sans-serif;
     font-size: 12px;
     font-weight: 600;
@@ -48,13 +46,13 @@
 }
 
 .growers-informacion button:hover{
-    background-color: #55cfdf;
+    background-color: #293B97;
     scale: 1.05;
 }
 
 .growers-informacion button a {
     text-decoration: none;
-    color: #0A175C;
+    color: #FFFFFF;
 }
 .growers-imagen {
     margin: 25px 0;
@@ -81,7 +79,7 @@
 }
 
 .titulo-growers {
-    color: #FFF;
+    color: #1E1926;
     text-align: center;
     font-family: Raleway, sans-serif;
     font-size: 20px;
@@ -90,6 +88,7 @@
 }
 
 .titulo-growers span {
+    color: #FF0000;
     font-style: italic;
     font-weight: 700;
 }
@@ -132,7 +131,7 @@
 /* Celular (≥ 360px) */
 @media (min-width: 360px) {
     .titulo-growers {
-        font-size: 26px;
+        font-size: 30px;
     }
 
 
@@ -143,13 +142,17 @@
     }
 
     .growers-imagen {
-        height: 250px;
+        height: 350px;
     }
 
 }
 
 /* Tablets pequeñas (≥ 600px) */
 @media (min-width: 600px) {
+    .growers-section-home{
+        display: flex;
+        flex-direction: row;
+    }
     .growers-imagen {
         height: 300px;
     }

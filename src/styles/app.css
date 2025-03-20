@@ -9,6 +9,7 @@
 .contenedor-principal {
     width: 100%;
     overflow: hidden;
+    background-color: #E9F0FF;
 }
 
 html {

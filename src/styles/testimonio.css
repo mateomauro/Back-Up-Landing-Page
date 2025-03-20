@@ -1,15 +1,40 @@
-.testimonio {
+.comentario{
     width: 250px;
-    height: 100px;
+    background-color: #FFF;
+}
+
+.primera-parte{
     display: flex;
-    color: wheat;
+    height: 50%;
+}
+/* 
+.container-recomendacion{
+} */
+
+
+
+.container-test{
+    display: flex;
+    justify-content: center;
+}
+
+.testimonio {
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    height: 130px;
+    background-color: #FFF; 
     cursor: none;
-    margin-right: 25px;
+    border-radius: 5px;
+    padding: 5px;
+    box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.6); /* Sombra sutil */
+    margin: 0 15px;
 }
 
 .testimonio-img-container {
+    flex-direction: column;
     width: 50px;
-    height: 100%;
+    margin-right: 10px;
 }
 
 .testimonio img {
@@ -20,38 +45,46 @@
 }
 
 .testimonio-informacion-container {
-    width: 200px;
+    display: flex;
+    width: 100%;
+    height: 50%;
+}
+
+.testimonio-informacion-container div p{
+    text-align: center;
     height: 100%;
     display: flex;
-    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
-.testimonio-informacion-container h4 {
-    color: #FFF;
-     font-family: Raleway;
-    font-size: 12px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 11px;
-    margin: 5px 0;
-    padding-left: 10px;
-    /* 125% */
+.line {
+    width: 100%; /* Se ajusta al ancho del contenedor */
+    height: 1px;
+    border-top: 1px solid #212529; /* Bordes para crear la línea */
+    margin: 5px auto; /* Centra la línea con espacio alrededor */
+    opacity: 0.25;
 }
 
-.testimonio-informacion-container h5 {
-    color: #FFF;
+.testimonio-informacion-container p {
+    color: #616161;
     font-family: Raleway;
     font-size: 10px;
     font-style: normal;
     font-weight: 500;
     line-height: 10px;
-    margin: 5px 0;
-    padding-left: 10px;
-    /* 134.797% */
 }
 
 .estrellas-testimonio {
-    padding-left: 8px;
+    padding-top: 4px;
+}
+
+h4 {
+    color: #181818;
+    font-family: Playfair Display;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
 }
 
 
@@ -67,29 +100,26 @@
     }
     
     .testimonio img {
-        width: 60px;
-        height: 60px;
+        width: 50px;
+        height: 50px;
     }
     
     .testimonio-informacion-container {
-        width: 240px;
+        width: 250px;
     }
     
-    .testimonio-informacion-container h4 {
-        font-size: 13px;
+    h4 {
+        font-size: 18px;
     }
     
-    .testimonio-informacion-container h5 {
-        font-size: 11px;
+    .testimonio-informacion-container p {
+        font-size: 12px;
         line-height: 12px;
-    }
-    
-    .estrellas-testimonio {
-        padding-left: 8px;
     }
 
     .estrella-svg {
         width: 20px;
         height: 19px;
     }
+
 }

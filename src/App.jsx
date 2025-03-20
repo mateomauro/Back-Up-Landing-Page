@@ -4,10 +4,10 @@ import './styles/app.css';
 import Growers from './sections/Growers';
 import Servicios from './sections/Servicios';
 import Equipo from './sections/Equipo';
-import Galeria from './sections/Galeria';
 import Preguntas from './sections/Preguntas';
 import Contacto from './sections/Contacto';
 import Footer from './sections/Footer';
+import Estudiantes from './sections/Estudiantes';
 
 function App() {
   // Crear referencias para cada sección
@@ -15,6 +15,7 @@ function App() {
   const serviciosRef = useRef(null);
   const equipoRef = useRef(null);
   const galeriaRef = useRef(null);
+  const testimonioRef = useRef(null)
   const preguntasRef = useRef(null);
   const contactoRef = useRef(null);
 
@@ -31,20 +32,21 @@ function App() {
         serviciosRef={serviciosRef}
         equipoRef={equipoRef}
         galeriaRef={galeriaRef}
+        testimonioRef = {testimonioRef}
         preguntasRef={preguntasRef}
         contactoRef={contactoRef}
       />
       <div ref={growerRef}>
         <Growers />
       </div>
-      <div ref={serviciosRef}>
-        <Servicios />
-      </div>
       <div ref={equipoRef}>
         <Equipo />
       </div>
-      <div ref={galeriaRef}>
-        <Galeria />
+      <div ref={serviciosRef}>
+        <Servicios />
+      </div>
+      <div ref={testimonioRef}>
+        <Estudiantes />
       </div>
       <div ref={preguntasRef}>
         <Preguntas />
