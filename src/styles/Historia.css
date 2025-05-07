@@ -1,0 +1,59 @@
+
+.container-historia{
+    display: grid;
+    gap: 20px;
+    grid-template: 
+    "arrow puntos puntos anio2018" 200px
+    "arrow puntos puntos anio2019" 200px;
+
+    .arrow{
+        grid-area: arrow;
+    }
+
+    .puntos{
+        grid-area: puntos;
+    }
+
+    .anio2018{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        overflow: auto;
+        grid-area: anio2018;
+    }
+
+    .anio2019{
+        text-align: center;
+        overflow: auto;
+        grid-area: anio2019;
+    }
+}
+
+.caja{
+    border-radius: 30px;
+    border: 2px solid #FF5C5C;
+}
+
+
+.titulo-historia{
+    color: #293B97;
+    text-align: center;
+    font-family: Raleway;
+    font-size: 31.356px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 31.356px; 
+    margin-bottom: 40px;  
+    margin-top: 40px;    
+  
+}
+
+.titulo-historia span {
+    color: #293B97;
+    font-family: Raleway;
+    font-size: 31.356px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 31.356px;
+}

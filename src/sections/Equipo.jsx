@@ -26,12 +26,13 @@ const Equipo = () => {
             <GrowersDesktopAlrevez></GrowersDesktopAlrevez>
                     <h2>Nuestros <span className='span-titulo'>Teachers</span></h2>
                     <div className='equipo-tablet'>
-                        <InfoProfes nombre ="Marisa" img={profe3} info = "Hola soy marisa tengo 40 años, vivo en ....., me dedico a esto de ......., estamos dando clases en ......"> </InfoProfes>
-                        <InfoProfes nombre ="Simon" img={profe1} info = "Hola soy marisa tengo 40 años, vivo en ....., me dedico a esto de ......., estamos dando clases en ......"> </InfoProfes>
+                        <InfoProfes nombre ="Marisa Aguilar" img={profe3} info = "Fundadora y docente principal. Tras una amplia labor en el área administrativa y financiera, facilitó el marco para construir un sueño llamado BACK UP. Sin abandonar años de formación en la lengua inglesa y un largo recorrido en distintas orientaciones y pedagogías, surgió la idea de un espacio integrador. De la mano de la experiencia y observación fui desarrollando métodos personalizados acordes a las necesidades de cada alumno tanto para el acompañamiento escolar, necesidades especiales o formación académica."> </InfoProfes>
+                        <InfoProfes nombre ="Magdalena" img={profe1} info = "Profesora de inglés con más de 15 años de experiencia. Se ha desarrollado en la educación pública y privada. Acompaña el crecimiento de BACK UP hace cuatro años, tanto en el seguimiento escolar como en la formación de adolescentes y adultos."> </InfoProfes>
                     </div>
                     <div className='equipo-tablet'>
-                        <InfoProfes nombre ="Camila" img={profe4} info = "Hola soy marisa tengo 40 años, vivo en ....., me dedico a esto de ......., estamos dando clases en ......"> </InfoProfes>
-                        <InfoProfes nombre ="Kevin" img={profe2} info = "Hola soy marisa tengo 40 años, vivo en ....., me dedico a esto de ......., estamos dando clases en ......"> </InfoProfes>
+                        <InfoProfes nombre ="Simón" img={profe4} info = "Estudiante avanzado de la carrera de Ingeniería en Sistemas. Certificación en First Certificate. Docente de BACK UP desde sus inicios, acompañando el cambio social en el ámbito de la educación, tanto en el área de la lengua inglesa como en el área de matemáticas."></InfoProfes>
+                        <InfoProfes nombre ="Tomás" img={profe2} info = "Estudiante avanzado de la carrera del Profesorado en Ingles, con tres años de antigüedad de trabajo en BACK UP. Ha consolidado su experiencia formando alumnos  para exámenes internacionales y acompañamiento escolar. "> </InfoProfes>
+                        <InfoProfes nombre ="Uriel" img={profe2} info = "Estudiante avanzado de la carrera del Profesorado en Ingles, con tres años de antigüedad de trabajo en BACK UP. Ha consolidado su experiencia formando alumnos  para exámenes internacionales y acompañamiento escolar. "> </InfoProfes>
                     </div>
                 </div>
         </section>

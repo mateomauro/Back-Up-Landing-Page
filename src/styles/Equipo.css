@@ -46,11 +46,12 @@ h2{
 
 h3{
     color: #FFFFFF;
-    margin-bottom: 15px;
+    /* margin-bottom: 15px; */
 }
 
 .container{
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
@@ -66,12 +67,13 @@ h3{
 }
 
 .info-profe{
-    padding-left: 12px;
+    padding-left: 6px;
     display: flex;
     flex-direction: column;
 }
 
 .titulo{
+    margin-bottom: 5px !important;
     justify-items: center;
 }
 
